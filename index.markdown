@@ -28,7 +28,10 @@ layout: default
       {%- endfor -%}
     </ul>
 
-    <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    <p class="rss-subscribe">
+    <a href="{{ "/feed.xml" | relative_url }}"><img alt="RSS feed" src="/assets/feed-icon-14x14.png"/>
+    RSS feed</a>
+    </p>
   {%- endif -%}
 
 </div>
