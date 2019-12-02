@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: "Peder's Blog"
-author: "Peder Sørensen"
+author: ""
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
   Thoughts on programming
