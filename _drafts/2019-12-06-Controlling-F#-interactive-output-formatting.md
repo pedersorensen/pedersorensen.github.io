@@ -138,39 +138,8 @@ and add the following somewhere in the file:
 ```
 Now any new `fsi` session will have pretty printed types on by default.
 
-<!-- ### Final bits
-For completeness, here are additional helper functions that I've added to my `prelude.fsx` which come in very handy from time to time. Note that I have only tested these on Windows
+> In older versions of `fsi.exe` you have to use `--load` instead of `--use`.
 
-```fsharp
-open System
-open System.IO
-open System.Diagnostics
-open System.Globalization
-
-/// Start a new process for the path.
-let run path = Process.Start(fileName = path) |> ignore
-
-/// Open this file for editing.
-let editPrelude() =
-  let scriptPath = Path.Combine(__SOURCE_DIRECTORY__, __SOURCE_FILE__)
-  printfn "Opening %s for editing." scriptPath
-  run scriptPath
-
-/// Copies the item into the clipboard formatted as a string.
-let clip obj =
-  let text =
-    match box obj with
-    | :? String as s -> s
-    | :? DateTime as s ->
-      s.ToString("yyyy-MM-dd HH:mm:ss.fff", CultureInfo.InvariantCulture)
-    | _ -> sprintf "%A" obj
-  if text = "" then
-    printfn "No content, clipboard remains unchanged"
-  else
-    Windows.Forms.Clipboard.SetText(text, Windows.Forms.TextDataFormat.Text)
-    printfn "Copied %i characters to clip board" text.Length
-  obj
-``` -->
 
 ### Additional reading
 [F# Interactive Tips and Tricks: Formatting data](https://blogs.msdn.microsoft.com/dsyme/2010/01/08/f-interactive-tips-and-tricks-formatting-data-using-addprinter-addprinttransformer-and-a-in-sprintfprintffprintf/){:target="_blank"}
