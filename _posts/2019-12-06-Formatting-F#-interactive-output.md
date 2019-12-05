@@ -1,6 +1,6 @@
 ---
 layout: post
-excerpt: Controlling f# interactive output
+excerpt: Taking control of F# interactive output
 categories: programming fsharp fsi interactive
 ---
 

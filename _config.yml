@@ -33,6 +33,9 @@ google_analytics: UA-152613857-1
 
 permalink: /blog/:year/:month/:day/:title
 
+feed:
+  excerpt_only: true
+
 # Build settings
 theme: minima
 plugins:
