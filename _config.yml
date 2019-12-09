@@ -36,6 +36,9 @@ permalink: /blog/:year/:month/:day/:title
 feed:
   excerpt_only: true
 
+disqus:
+  shortname: https-peder86-github-io
+
 # Build settings
 theme: minima
 plugins:
