@@ -303,7 +303,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (>= 223)
+  github-pages (>= 224)
   jekyll-admin (>= 0.9.0)
   jekyll-feed (>= 0.13.0)
   jekyll-sitemap (>= 1.4.0)
