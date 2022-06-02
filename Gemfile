@@ -17,7 +17,7 @@ gem "github-pages", ">= 225", group: :jekyll_plugins
 group :jekyll_plugins do
   gem "jekyll-sitemap", ">= 1.4.0"
   gem "jekyll-feed", ">= 0.13.0"
-  gem "jekyll-admin", ">= 0.9.0"
+  gem "jekyll-admin", ">= 0.11.0"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
