@@ -284,7 +284,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (>= 226)
-  jekyll-admin (>= 0.11.0)
+  jekyll-admin (>= 0.11.1)
   jekyll-feed (>= 0.13.0)
   jekyll-sitemap (>= 1.4.0)
   minima (>= 2.5.1)
