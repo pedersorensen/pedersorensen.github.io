@@ -24,9 +24,9 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
   Thoughts on programming
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://peder86.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://pedersorensen.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
-github_username: peder86
+github_username: pedersorensen
 linkedin_username: pederklokmosesorensen
 show_downloads: false
 google_analytics: UA-152613857-1
@@ -37,7 +37,7 @@ feed:
   excerpt_only: true
 
 disqus:
-  shortname: https-peder86-github-io
+  shortname: https-pedersorensen-github-io
 
 # Build settings
 theme: minima
